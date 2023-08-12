@@ -1,0 +1,66 @@
+* comandos promp:
+cls / clear - limpa a tela.
+dir - mostra o conteudo do diretorio.
+q - para o comando e vai pro promp.
+cd "Mas o caminho do diretorio" - vai pro diretorio do caminho
+
+git --version - ver a versão do git que está sendo usada
+posso usa o cmd ou o git bash para utilizar o git
+
+* cria uma pasta no seu computador para inicializar um repositorio 
+    git init - inicializa um repositorio na sua pasta
+* abre a pasta no VSCode e cria um arquivo na liguagem q quiser
+
+TRABALHANDO SOMENTE COM UM BRANCH
+
+    git status  - ele retorna quantos branch existem e quantso commit existem e arquivos que nao estao no repositorio
+    git add "nome do arquivo - adiciona somente o arquivo especifico para area de stage
+    git add . -adicona varios arquivos que estao nessa pasta para area de stage
+
+    Antes de acionar o comando commit precisamos configurar nosso usuario - somente uma vez
+
+    git config  --global user.name  - ele vai lhe mostrar o seu nome (se voce colocar o nome vai ser usado )
+    git config --global user.email - ele vai lhe mostrar o seu email (se voce colocar o email vai ser usado )
+
+    git status  - ele retorna quantos branch existem e quantso commit existem e arquivos que nao estao no repositorio
+    git add "nome do arquivo - adiciona somente o arquivo especifico para area de stage
+    git add . -adicona varios arquivos que estao nessa pasta para area de stage
+    git commit -m "mensagem da descrição da mudança" - leva seu arquivo para pasta .git
+
+    Fazendo mudanças no Scrip e mandando para o git
+    aciona o comando git status para ver como está o arquivo
+    Depois de fizer as modificações obrigatóriamente digitar o comando git add
+    Estando na area de stage digitar o comando git commit -m ""
+
+    git log - mostra todo o histórico e as versoes que existem
+    todo commit é identificado com o seu hash
+
+    git checkout "branch" para voltar a uma versão
+        copia os seis primeiros digitos e cola
+    git checkout main - volta para a ultima versão    
+
+CRIANDO UM BRANCH
+    Criar um branch
+        git branch "nome do branch"
+            git log
+            git status
+        git checkout "nome do branch" - MUDAR PARA A BRANCH CRIADA
+            git status
+            git log
+        Criar um arquivo no VSCode
+            git add "nome do arquivo - adiciona somente o arquivo especifico para area de stage
+            git add . - adicona varios arquivos que estao nessa pasta para area de stage
+            git commit -m "mensagem da descrição da mudança" - leva seu arquivo para pasta .git
+                Nesse caso criou um commit somente nessa branch 
+                digitando git log ele mostra onde seu commit está e onde o commit main está tambem
+        Nao mude de branch antes de adiconar e commitar sua branch
+                
+ 
+    
+git branch
+git merge
+
+
+
+git push - 
+git pull - 
